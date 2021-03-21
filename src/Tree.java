@@ -1,10 +1,7 @@
 public class Tree {
     private MyNode root;
 
-    public Tree(){
-        root=new MyNode();
-    }
-    public Tree(String s){
+    Tree(String s){
         root=createTree(s);
     }
 

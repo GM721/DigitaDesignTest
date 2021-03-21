@@ -4,7 +4,7 @@ public class MyNode {
     public MyNode leftChild;
     public MyNode rightChild;
 
-    public MyNode(){
+    MyNode(){
         leftChild=null;
         rightChild=null;
         data=new StringBuilder();

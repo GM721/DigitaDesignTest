@@ -5,7 +5,6 @@ public class Main {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
         System.out.println("Input string: " + s);
-        //System.out.println(checkString(s));
         //System.out.println(s.split(" ").length==1);
         if(checkString(s)){
             Tree tree = new Tree(s);
